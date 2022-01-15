@@ -1,0 +1,219 @@
+                                                body {
+                                                    font-family: 'Licorice', cursive;
+                                                    font-family: 'Archivo Narrow', sans-serif;
+                                                    padding: 10px 5px;
+                                                    background: #000;
+                                                    ;
+                                                    color: white;
+                                                }
+                                                
+                                                .container {
+                                                    display: block;
+                                                    margin: 0 auto;
+                                                    width: 100%;
+                                                    max-width: 1200px;
+                                                    text-align: center;
+                                                    padding: 50px 0px;
+                                                    max-height: 100vh;
+                                                }
+                                                
+                                                .form__title {
+                                                    font-family: 'Archivo Narrow', sans-serif;
+                                                    text-transform: uppercase;
+                                                    font-size: 40px;
+                                                    line-height: 1.5;
+                                                }
+                                                
+                                                .form__subtitle {
+                                                    font-size: 20px;
+                                                    line-height: 1.5;
+                                                    opacity: .8;
+                                                    font-family: 'Licorice', cursive;
+                                                    ;
+                                                    font-size: 30px;
+                                                    font-weight: bolder;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .span {
+                                                    font-family: 'Licorice', cursive;
+                                                    ;
+                                                    opacity: 1;
+                                                    font-size: 30px;
+                                                    line-height: 1.5;
+                                                    padding: 0 10px;
+                                                    font-weight: bold;
+                                                }
+                                                
+                                                .span--red {
+                                                    color: #FF0018;
+                                                    text-shadow: 0 0 5px currentColor;
+                                                    font-size: 1.2em;
+                                                }
+                                                
+                                                .span--orange {
+                                                    color: #FFA52C;
+                                                    text-shadow: 0 0 5px currentColor;
+                                                    font-size: 1.1em;
+                                                }
+                                                
+                                                .span--yellow {
+                                                    color: #FFFF41;
+                                                    text-shadow: 0 0 5px currentColor;
+                                                    font-size: .9em;
+                                                }
+                                                
+                                                .span--green {
+                                                    color: #008018;
+                                                    text-shadow: 0 0 5px currentColor;
+                                                    font-size: 1em;
+                                                }
+                                                
+                                                .span--blue {
+                                                    color: #0000F9;
+                                                    text-shadow: 0 0 5px currentColor;
+                                                    font-size: 1.2em;
+                                                }
+                                                
+                                                .span--violet {
+                                                    color: #86007D;
+                                                    text-shadow: 0 0 5px #86007D;
+                                                    font-size: 1.3em;
+                                                }
+                                                
+                                                .forma {
+                                                    position: relative;
+                                                    background: linear-gradient(0deg, #000, #262626);
+                                                    max-width: 600px;
+                                                    width: 100%;
+                                                    margin: 0 auto;
+                                                    padding-bottom: 60px;
+                                                    padding-top: 20px;
+                                                }
+          
+                                                .forma:before {
+                                                  content: '';
+                                                  position: absolute;
+                                                  top: -2px;
+                                                  left: -2px;
+                                                  background: linear-gradient(45deg, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
+                                                  background-size: 150%;
+                                                  width: calc( 100%);
+                                                  height: calc( 100%);
+                                                  z-index: -1;
+                                                  animation: animate 50s ease-in-out infinite;
+                                                  filter: blur(20px);
+                                              }
+                                              
+                                              @keyframes animate {
+                                                  0% {
+                                                      background-position: 0 0;
+                                                  }
+                                                  50% {
+                                                      background-position: 400% 0;
+                                                  }
+                                                  100% {
+                                                      background-position: 0 0;
+                                                  }
+                                              }
+                                                .sex {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    max-width: 600px;
+                                                    width: 100%;
+                                                    margin: 0 auto;
+                                                }
+                                                
+                                                #male,
+                                                #female,
+                                                #related {
+                                                    margin: 15px 10px 15px 30px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                #email {
+                                                    display: block;
+                                                    cursor: pointer;
+                                                    border: none;
+                                                    width: fit-content;
+                                                    margin: 0 auto;
+                                                    margin-top: 30px;
+                                                    margin-bottom: 30px;
+                                                    max-width: 600px;
+                                                }
+                                                
+                                                .email {
+                                                    margin-bottom: -20px;
+                                                    margin-left: -165px;
+                                                    margin-top: 30px;
+                                                }
+                                                
+                                                .neonButton {
+                                                    font-size: 1.5rem;
+                                                    text-transform: uppercase;
+                                                    display: inline-block;
+                                                    border: .125rem solid #FF0018;
+                                                    padding: .3em 2.3em;
+                                                    border-radius: 0.9em;
+                                                    margin: 0 auto;
+                                                    text-decoration: none;
+                                                    text-shadow: 0 0 .85em #FF0018;
+                                                    box-shadow: inset 0 0 .5em #FF0018, 0 0 .5em #FF0018;
+                                                    background: transparent;
+                                                    color: #FF0018;
+                                                    font-family: sans-serif;
+                                                    line-height: 1;
+                                                    cursor: pointer;
+                                                    text-align: center;
+                                                    -webkit-appearance: none;
+                                                    -moz-appearance: none;
+                                                    position: relative;
+                                                    transition:  100ms linear;
+                                                }
+                                                .neonButton:hover,
+                                                .neonButton:focus {
+                                                    background: #fa4b4b;
+                                                    z-index: 5;
+                                                    color:rgb(22, 21, 21);
+                                                    text-shadow: none;
+                                                    font-weight: bolder;
+                                                }                                  
+                                                .neonButton::before {
+                                                  pointer-events: none;
+                                                   content: '';
+                                                    position: absolute;
+                                                    background-color: #FF0018;
+                                                    top:120%;
+                                                    left:0;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    border-radius: 5em;
+                                                    
+                                                    transform: perspective(1em) rotateX(40deg) scale(1, .3);
+                                                    filter: blur(1.2em);
+                                                    opacity: .7; 
+
+                                                }
+                                                .neonButton::after {
+                                                  content: '';
+                                                  position: absolute;
+                                                  top: 0;
+                                                  left: 0;
+                                                  width: 100%;
+                                                  height: 100%;
+                                                  border-radius: 5em;;
+                                                  box-shadow: 0 0 1em 0.5em #f54f4f;
+                                                  opacity: 0;
+                                                  transition: opacity 100ms linear;
+                                                }
+                                                .neonButton:hover::after {opacity:.3;}
+                                                
+                                                
+                                                
+                                                
+                                                                                    
+                                                
+                                               
+                                                
+                                                
